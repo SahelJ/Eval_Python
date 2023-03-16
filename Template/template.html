@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>System Info</title>
+    <link rel="stylesheet" href="Template/style.css">
+</head>
+<body>
+    <h1>System Info</h1>
+    <table>
+        <tr>
+            <th>Operating System</th>
+            <td>{{ system_info.os_name }}</td>
+        </tr>
+        <tr>
+            <th>Operating System Release</th>
+            <td>{{ system_info.os_release }}</td>
+        </tr>
+        <tr>
+            <th>CPU Info</th>
+            <td>{{ system_info.cpu_info }}</td>
+        </tr>
+        <tr>
+            <th>Hostname</th>
+            <td>{{ system_info.hostname }}</td>
+        </tr>
+    </table>
+</body>
+</html>
